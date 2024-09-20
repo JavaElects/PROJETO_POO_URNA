@@ -27,8 +27,8 @@ public class Main extends javax.swing.JFrame {
     public Main(int votosGetulio, int votosLula) {
         initComponents();
         
-        getulioECafe = new Candidato("Getúlio Vargas", "PTB", "Café", "52", "src/images/getulio.jpg", "src/images/café.jpg");
-        lulaEHaddad = new Candidato("Lula", "PT", "Haddad", "13", "src/images/lule.jpg", "src/images/haddad.jpg");
+        getulioECafe = new Candidato("Getúlio Vargas", "PTB", "Café", "52", "src/br/edu/images/getulio.jpg", "src/br/edu/images/café.jpg");
+        lulaEHaddad = new Candidato("Lula", "PT", "Haddad", "13", "src/br/edu/images/lule.jpg", "src/br/edu/images/haddad.jpg");
         
         getulioECafe.setVotos(votosGetulio);
         lulaEHaddad.setVotos(votosLula);
